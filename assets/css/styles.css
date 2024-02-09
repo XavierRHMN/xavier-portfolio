@@ -356,12 +356,18 @@ svg {
   background-color: transparent;
   border: none; /* Remove any border if not needed */
   cursor: pointer;
-  color: white;
+  color: var(--text-color); /* Use the CSS variable for color */
+  transition: color .3s; /* Apply transition to color change */
+}
+
+.theme-icon:hover{
+  color: var(--first-color);
+  transition: .3s;
 }
 
 /* Light theme variables */
 .light-theme {
-  --first-color: hsl(var(--hue),76%, 70%); /* Example light blue */
+  --first-color: hsl(var(--hue),76%, 70%);
   --first-color-alt: hsl(210, 100%, 75%);
   --title-color: hsl(0, 0%, 21%);
   --text-color: hsl(230, 17%, 14%);
@@ -910,10 +916,6 @@ svg {
     text-align: left;
   }
 }
-
-
-
-
 
   @media screen and (min-width: 1152px) {
 
