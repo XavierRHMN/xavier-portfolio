@@ -246,6 +246,10 @@ svg {
     right: 1.5rem;
   }
 
+  .nav__btns:hover{
+    color: var(--first-color);
+  }
+
 /* Show menu */
 .show-menu{
   right: 0;
@@ -469,7 +473,7 @@ svg {
   top: 50%; /* Center the icon vertically */
   left: 50%; /* Center the icon horizontally */
   transform: translate(-50%, -50%); /* Adjust position to exact center */
-  font-size: 300px; /* Adjust the size as needed */
+  font-size: 200px; /* Adjust the size as needed */
   color: var(--first-color); /* Use the CSS variable for color */
   z-index: 2; /* Ensure the icon is above the SVG */
 }
@@ -863,6 +867,9 @@ svg {
 /* For large devices */
 @media screen and (min-width: 1023px) {
 
+  .about__profile-icon{
+    font-size: 300px; /* Adjust the size as needed */
+  }
 
   .section {
     padding-block: 6rem 4rem;
@@ -909,6 +916,7 @@ svg {
 
 
   @media screen and (min-width: 1152px) {
+
     .container{
       margin-inline: auto;
     }
