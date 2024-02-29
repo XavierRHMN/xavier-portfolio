@@ -23,23 +23,17 @@ Before you begin, ensure you have the latest version of Node.js and npm installe
 
 ### Installation
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/XavierRHMN/xavier-portfolio.github.io.git
+   ```
+   git clone https://github.com/XavierRHMN/xavier-portfolio.git
    ```
 2. Navigate to the project directory:
-   ```bash
-   cd xavier-portfolio.github.io
    ```
-3. Install dependencies:
-   ```bash
-   npm install
+   cd xavier-portfolio
    ```
-4. Start the development server:
-   ```bash
-   npm start
+3. Type the following command:
    ```
-   This command runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
+   .\index.html
+   ```
 ## Technologies Used
 - Javascript
 - CSS for styling
